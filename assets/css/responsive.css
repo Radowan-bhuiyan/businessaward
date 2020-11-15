@@ -1,0 +1,384 @@
+@media only screen and (min-width: 1199px) and (max-width: 1900px) {
+}
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 991px) and (max-width: 1200px) {
+    .navigation li a {
+        padding: 0 12px;
+    }
+    font-size:16px;
+}
+h1.text-middle {
+    font-size: 60px !important;
+}
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width:992px) and (max-width:1100px) {
+}
+}
+@media only screen and (min-width:991px) and (max-width:1199px) {
+}
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+    /*index start*/
+    .navigation li a {
+        display: inline-block;
+        font-family: Aleo-regular;
+        padding: 0 12px;
+        color: white;
+        font-size: 14px;
+    }
+    .menu_item li ul {
+        left: 46%;
+        width: 170px;
+        font-size: 14px;
+    }
+    .table-width table {
+        width: 100%;
+    }
+    .congratulation h2 {
+        font-size: 30px;
+    }
+    /*index end*/
+    h1.text-middle {
+        font-size: 60px !important;
+    }
+    .overlay {
+        width: 43%;
+        height: 62%
+    }
+    .overlay h2{
+        font-size: 27px;
+    }
+
+    .has-search .form-control-feedback.plane, .has-search .form-control-feedback {
+        position: absolute;
+        z-index: 2;
+        display: block;
+        width: 82%;
+        height: 2.375rem;
+        line-height: 2.375rem;
+        text-align: center;
+        pointer-events: none;
+        color: #aaa;
+    }
+}
+@media only screen and (min-width: 768px) {
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+    .menu_item {
+        text-align: center;
+    }
+
+    .congratulation .top h1 {
+        font-size: 42px;
+    }
+
+    .table-width {
+        width: 100%;
+        display: block; 
+         overflow-y: hidden; 
+        overflow-x: scroll;
+    }
+
+    .table-width td {
+        font-size: 13px;
+        padding: 0px;
+        line-height: 25px;
+    }
+
+    .table-width table th {
+        padding: 0px;
+        line-height: 26px;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 12px;
+        /* margin-bottom: 24px; */
+        /* overflow: hidden; */
+    }
+
+    .main p.text-padding {
+        padding-left: 0px;
+         text-indent: 0px;
+    }
+
+    .contact h1.text-middle, .faq h1.text-middle, .winner h1.text-middle, .nominate h1.text-middle, .panelists h1.text-middle {
+        /* display: flex; */
+        /* align-items: center; */
+        /* flex-direction: row; */
+        /* min-height: 320px; */
+        /* color: #1d0e0b; */
+        opacity: 0.4;
+        /* text-align: center; */
+        margin-left: 0px;
+        font-size: 45px !important;
+        position: absolute;
+        text-align: center;
+        padding: 0px 10px;
+    }
+
+    .overlay {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .winner h2, .panelists h2 {
+        font-size: 18px;
+    }
+
+    .overlay .content {
+        padding: 10px 0px 1px;
+    }
+    .scroll h6 {
+    font-size: 10px;}
+
+    .img-border {
+        font-size: 10px;
+        padding: 6px 10px;
+        width: 34px;
+    }
+
+    .bg-2 .contact, .bg-2 .faq, .bg-2 .winner, .bg-2 .nominate, .bg-2 .panelists {
+        min-height: 180px;
+    }
+
+    .logo.text-center img {
+        max-width: 50%;
+        margin-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .social_icon ul {
+        text-align: center !important;
+    }
+
+    .industry-text {
+        /* display: block; */
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .about .form-control {
+        margin-bottom: 30px;
+    }
+
+    .text-continue{
+        text-align:center;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 479px) and (max-width: 767px) {
+    /*index start*/
+    .navigation li a {
+        font-size: 13px;
+
+    }
+
+    .menu_item li ul a{
+        font-size: 11px !important;
+    }
+
+    .bg-1 .menu_item li ul,
+    .bg-2 .menu_item li ul {
+        top: 52px;
+        width: 145px;
+        left: 69%;
+    }
+    .inline .social_icon ul li{
+        display: inline-block !important;
+    }
+
+    section.navigation.inline ul li{
+        display: block;
+    }
+    .congratulation .top h1{
+        font-size:60px;
+    }
+    .congratulation h2 {
+        font-size: 19px;
+    }
+    .table-width table {
+        width: 100%;
+    }
+    .table-width td, .table-width th{
+        font-size: 12px;
+        letter-spacing: 1px;
+        line-height: 14px;
+        color: #ffffff;
+        font-family: Aleo-Regular;
+        font-weight: 400;
+    }
+    .table-width td{
+        font-size: 12px;
+    }
+    /*index end*/
+    /*Our Panilist Css*/
+    .overlay .contentt h3{
+        font-size: 16px;
+    }
+
+    .main p {
+        font-size: 14px;
+    }
+    .main p.text-padding {
+        padding-left: 0px;
+        text-indent: 0px;
+    }
+    .main p.text-padding {
+        padding-left: 0px;
+        text-indent: 0px;
+    }
+    .main h4 {
+        font-size: 20px;
+    }
+    .about label {
+        font-size: 14px;
+    }
+    .Recovered img {
+        height: 100px;
+        margin-top: 5px;
+    }
+
+    h1.text-middle{
+        font-size: 40px !important;
+    }
+    .overlay {
+        width: 43%;
+        height: 62%
+    }
+    .overlay h2{
+        font-size: 17px;
+    }
+    .nominate h1.text-middle {
+        width: 70%;
+        font-size: 45px;
+    }
+    .faq-text h6 {
+        font-size: 14px;
+    }
+    .faq-text p {
+        font-size: 12px;
+    }
+    .information .bg {
+        margin-top: 15px;
+    }
+    .has-search .form-control-feedback.plane, .has-search .form-control-feedback {
+        position: absolute;
+        z-index: 2;
+        display: block;
+        width:90%;
+        height: 2.375rem;
+        line-height: 2.375rem;
+        text-align: center;
+        pointer-events: none;
+        color: #aaa;
+    }
+    span.fas.fa-paper-plane.form-control-feedback.text-right {
+        width: 95% !important;
+    }
+    @media only screen and (min-width:450px) and (max-width:692px) {
+        /*index start*/
+        .navigation li a {
+            font-size: 13px;
+
+        }
+        .menu_item li ul a{
+            font-size: 12px;
+        }
+        .bg-1 .menu_item li ul,
+        .bg-2 .menu_item li ul {
+            top: 90px;
+            width: 135px;
+            left: 55%;
+        }
+        .bg-1 .congratulation h1 {
+            font-size: 50px !important;
+        }
+        .congratulation h2 {
+            font-size: 19px;
+        }
+        .job {
+            display:  block;
+            flex-direction: column;
+        }
+        .job-bg1::before {
+            background: #dfe0e1;
+            position: absolute;
+            content: "";
+            bottom: -10px;
+            left: 127px;
+            width: 253px;
+            height: 100%;
+            z-index: -1;
+        }
+        /*index start*/
+        /*Our Panilist Css*/
+
+/* .overlay h2{
+font-size: 22px;
+}*/
+.overlay {
+    width: 43%;
+    height: 62%
+}
+.overlay .content h3{
+    font-size: 16px;
+}
+h1.text-middle{
+    font-size: 22px !important;
+}
+.nominate h5,
+.nominate h5,
+.panelists h5 {
+    font-size: 13px;
+}
+.nominate-text ul li {
+    font-family: Aleo-Bold;
+    font-size: 13px;
+    line-height: 22px;
+}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    .congratulation .top h1 {
+        font-family: NOTERA_PERSONALUSEONLY;
+        font-size: 45px;
+    }
+    .congratulation h2 {
+        font-size: 16px;
+    }
+    .table-width table {
+        width: 100%;
+    }
+    .table-width td, .table-width th{
+        font-size: 12px;
+        letter-spacing: 1px;
+        line-height: 14px;
+        color: #ffffff;
+        font-family: Aleo-Regular;
+        font-weight: 400;
+    }
+    .table-width td{
+        font-size: 12px;
+    }
+    .inline .social_icon ul li{
+        display: inline-block !important;
+    }
+    section.inline ul li{
+        display: block;
+    }
+    /*Our Panilist Css*/
+    .overlay .content h3,h6{
+        font-size: 14px;
+    }
+    h1.text-middle{
+        font-size: 20px;
+    }
+    .overlay {
+        width: 43%;
+        height: 62%
+    }
+    .overlay h2{
+        font-size: 20px;
+    }
+}
